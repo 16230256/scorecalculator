@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        // This method is called when the app launches
+        // This is the first method to launch the App
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         // temp area
-        //mMessageTextView.setText("Niall is the coolest programmer ever!!!!!");
+        //mMessageTextView.setText("ALmost there!!!!!");
         //Log.d("HB", "This is a log cat log. Logs are important!");
 
         //  Example crash!!!
