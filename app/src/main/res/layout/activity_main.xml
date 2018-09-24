@@ -69,29 +69,6 @@
         android:layout_height="match_parent"
         android:stretchColumns="2"
         android:layout_below="@id/message_distance_from_cones">
-        <TableRow>
-            <TextView
-                android:text=""
-                android:padding="5dip"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                />
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/meaages_distance_ft"
-                android:padding="5dip"
-                />
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/message_points"
-                android:padding="5dip"
-                />
-        </TableRow>
 
         <TableRow>
             <TextView
@@ -101,6 +78,14 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 />
+
+            <EditText
+                android:id="@+id/editText5"
+                android:layout_width="122dp"
+                android:layout_height="26dp"
+                android:ems="10"
+                android:inputType="number" />
+
             <TextView
                 android:text="_____________"
                 android:padding="5dip"
@@ -118,28 +103,63 @@
                 />
         </TableRow>
 
-        <TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
             <TextView
-                android:text="@string/message_far_ball"
-                android:padding="5dip"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                />
-            <TextView
-                android:text="_____________"
                 android:padding="5dip"
+                android:text="" />
+
+            <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                />
-            <TextView
-                android:text="0"
                 android:padding="5dip"
+                android:text="@string/meaages_distance_ft" />
+
+            <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                />
+                android:padding="5dip"
+                android:text="@string/message_points" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="275dp"
+            android:layout_height="33dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="5dip"
+                android:text="@string/message_far_ball" />
+
+            <EditText
+                android:id="@+id/editText4"
+                android:layout_width="68dp"
+                android:layout_height="34dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="5dip"
+                android:text="_____________" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="5dip"
+                android:text="0" />
         </TableRow>
 
         <TableRow>
