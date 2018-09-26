@@ -109,7 +109,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:inputType="textMultiLine"
+                android:inputType="textMultiLine|number"
                 android:onClick="handleNearBallDistance" />
             />
 
@@ -136,7 +136,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:inputType="textMultiLine"
+                android:inputType="textMultiLine|number"
                 android:onClick="handleFarBallDistance" />
 
             <TextView
@@ -162,7 +162,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:inputType="textMultiLine"
+                android:inputType="number"
                 android:onClick="handleRobotHomeDistance" />
 
             <TextView
