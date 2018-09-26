@@ -11,19 +11,19 @@
         android:id="@+id/fixes_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/message_color_label"
-        android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
-        android:layout_marginStart="10dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/message_color_label"
         android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
         android:orientation="horizontal">
 
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="1dp"
             android:layout_marginLeft="1dp"
+            android:layout_marginStart="1dp"
             android:layout_weight="1"
             android:onClick="handle3fixes"
             android:text="@string/button_3_fixes" />
@@ -65,8 +65,8 @@
         android:id="@+id/TableLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/message_distance_from_cones"
         android:layout_alignParentStart="true"
+        android:layout_below="@id/message_distance_from_cones"
         android:layout_marginStart="0dp"
         android:layout_marginTop="-3dp"
         android:stretchColumns="2">
@@ -177,30 +177,30 @@
         <TableRow>
 
             <Button
-                android:textSize="12sp"
                 android:id="@+id/button_wb_failure"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_alignTop="@+id/button_wb_success"
                 android:layout_weight="1"
-                android:text="@string/button_wb_failure" />
+                android:text="@string/button_wb_failure"
+                android:textSize="12sp" />
 
             <Button
-                android:textSize="12sp"
                 android:id="@+id/update_button"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/button_update" />
+                android:text="@string/button_update"
+                android:textSize="12sp" />
 
             <Button
-                android:textSize="12sp"
                 android:id="@+id/button_wb_success"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_above="@+id/message_total_score_initial"
                 android:layout_weight="1"
-                android:text="@string/button_wb_success" />
+                android:text="@string/button_wb_success"
+                android:textSize="12sp" />
 
         </TableRow>
 
@@ -212,7 +212,7 @@
                 android:layout_height="wrap_content"
                 android:padding="5dp"
                 android:text="@string/message_white_black_points_label"
-                android:textColor="@color/text"/>
+                android:textColor="@color/text" />
 
 
             <TextView
@@ -232,8 +232,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/message_total_score_initial"
                 android:padding="5dip"
+                android:text="@string/message_total_score_initial"
                 android:textSize="32sp" />
 
             <Button
@@ -242,8 +242,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:padding="5dip"
-                android:textSize="32sp"
-                android:text="@string/button_reset" />
+                android:text="@string/button_reset"
+                android:textSize="32sp" />
         </TableRow>
 
     </TableLayout>
@@ -256,8 +256,8 @@
 
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="10dp"
         android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
         android:layout_marginTop="11dp"
         android:text="@string/message_color_label"
         android:textColor="@color/text"
@@ -270,8 +270,8 @@
 
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="10dp"
         android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
         android:layout_marginTop="11dp"
         android:gravity="right"
         android:padding="2dp"
